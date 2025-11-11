@@ -42,7 +42,8 @@ using namespace std;
 
 // ==================== Main Function ====================
 int main() {
-   
-    
+   Course c= new Course ("CS202", "Programming", 250, 220);
+   Instructor t= new Instructor("Computer Science", 5);
+   Student s= new Student(2, "Informatics");
     return 0;
 }
