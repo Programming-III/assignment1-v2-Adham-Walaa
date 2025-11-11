@@ -23,27 +23,6 @@ class Person {
         }
 
     };
-    class Instructor:: Person {
-    private:
-        string department;
-        int experienceYears;
-    public:
-        Instructor (string p, int e) {
-            department=p;
-            experienceYears=e;
-        }
-        string getDepartment () {
-            return department;
-        }
-        int getExperienceYears () {
-            return experienceYears;
-        }
-        display() {
-            cout<<"Name: " << Person->getName() << endl << "Department: " << department << endl <<
-                "Experience Years: " << experienceYears;
-        }
-
-    };
 class Course:: Person {
 private:
     string courseCode;
